@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(61, 28, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather{
+    height: 60%;
+    width: 40%;
+    border:2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 4px 10px rgba(255, 255, 255, 0.5);
+    background-color: rgba(96, 108, 197, 0.119);
+}
+nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.temperature{
+    color: white;
+    height: 30%;
+    font-size:4.5rem;
+}
+.temperature p{
+    margin-top: 0px;
+}
+.time_location{
+    color: white;
+    font-size: 2rem;
+    height: 30%;
+    line-height: 20%;
+}
+
+.condition{
+    color: white;
+}
+.search_area{
+    width: 1000px;
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: transparent;
+    font-size: 1.1rem;
+    color:  rgb(61, 28, 225);
+}
+button{
+    color:  rgb(61, 28, 225);
+    font-size: 1.1rem;
+    width: 200px;
+    height: 40px;
+    margin-top: 1 rem;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgb(61, 28, 225);
+    border-radius: 30px;
+    background-color: lightgray;
+}
+button:hover{
+    background-color: rgb(61, 28, 225,0.5) ;
+    color: white;
+}
